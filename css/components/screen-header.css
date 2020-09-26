@@ -13,3 +13,13 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.cog__not {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  position: absolute;
+  right: 20px;
+  top: 48px;
+}
