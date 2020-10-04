@@ -6,23 +6,23 @@
   justify-content: center;
 }
 
-.alt-header__column {
-  width: 33%;
-}
-
 .alt-header__title {
   font-size: 28px;
   font-weight: 600;
 }
 .alt-header__column:first-child {
+  width: 10%;
   margin-right: auto;
 }
 
 .alt-header__column:nth-child(2) {
-  text-align: center;
+  width: 80%;
+  margin-bottom: 5px;
+  text-align: justify;
 }
 
 .alt-header__column:last-child {
+  width: 10%;
   margin-left: auto;
   display: flex;
   justify-content: flex-end;
